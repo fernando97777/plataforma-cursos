@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="padre">
+        <div class="formulario2">
+            <form id="formulario">    
+                <p>Email</p>
+                <input type="email" placeholder="Email" id="email">
+                <p>Contraseña</p>
+                <input type="password" placeholder="Contraseña" id="contraseña">
+            </form>
+            <button type="submit" class="boton" id="boton">REGISTRARME</button>
+        </div>
+    </div>
+    
+</div>
+
+
+
+
+
+
+
+
+<script src="JavaScript/reguistro.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+ <!-- BASE DE DATOS FIRE BASE -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+         <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
+    
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyDO5iO2teMYU9fvnzjbvR8qdy4CcY0PjVE",
+        authDomain: "tareas-ab3d2.firebaseapp.com",
+        projectId: "tareas-ab3d2",
+        storageBucket: "tareas-ab3d2.appspot.com",
+        messagingSenderId: "731827095775",
+        appId: "1:731827095775:web:9c2498f335ff660a41816a"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      const auth = firebase.auth();
+    </script>
+</body>
+</html>

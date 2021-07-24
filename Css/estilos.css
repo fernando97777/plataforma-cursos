@@ -1,0 +1,196 @@
+* {
+  font-family: "Quicksand", sans-serif;
+  top: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.centrar-texto {
+  text-align: center;
+}
+/********************************************************************************/
+.padre {
+  background-image: url("../img/Course-Tech.png");
+  height: 41.08rem;
+}
+.reguistro {
+  text-align: end;
+}
+.reguistro a {
+  color: white;
+  text-decoration: none;
+  margin-right: 1rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.login-caja {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+.caja-logo {
+  margin-left: 1rem;
+}
+.caja-logo p {
+  color: white;
+  font-size: 4rem;
+  font-weight: bold;
+}
+.logo {
+  margin-top: 1rem;
+  width: 80%;
+}
+.formulario {
+  margin-top: 5rem;
+  margin-left: 10rem;
+  padding: 1rem;
+  width: 30rem;
+  height: 20rem;
+}
+.formulario form p {
+  color: white;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+.formulario input {
+  border-radius: 0.5rem;
+  width: 20rem;
+  padding: 0.2rem;
+  font-size: 1.3rem;
+}
+.boton {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  width: 11rem;
+}
+.reguistro {
+  margin-top: 2rem;
+}
+.reguistro p {
+  color: white;
+  font-size: 1rem;
+}
+.regis {
+  margin-top: 5.5rem;
+}
+.regis p {
+  color: white;
+  margin-top: 0.3rem;
+}
+.regis a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/**********************************REGUSITRO*************************************************************/
+.formulario2 {
+  text-align: center;
+  padding-top: 10rem;
+}
+.formulario2 p {
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.formulario2 input {
+  border-radius: 0.5rem;
+  width: 20rem;
+  padding: 0.5rem;
+}
+
+/*****************************************************Cursos******************************************************/
+.cursos-padre {
+  height: 111.8rem;
+  background-image: url(../img/Course-Tech.png);
+}
+.nav-info {
+  background-color: #61153a;
+  display: flex;
+  justify-content: space-between;
+}
+.logo-empresa img {
+  width: 15%;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
+}
+.apartados nav {
+  margin-top: 4rem;
+}
+.apartados nav a {
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 1rem;
+}
+
+/***************************************secciones *********************************************************/
+.seccion {
+  margin: 1rem;
+  display: none;
+}
+.mostrar-seccion {
+  display: block;
+}
+.curso {
+  text-align: center;
+  margin-top: 1rem;
+  margin-left: 4rem;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.caja-cu {
+  background-color: rgba(255, 255, 255, 0.39);
+  width: 22rem;
+  text-align: center;
+  height: 25rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.24);
+}
+.caja-cu p {
+  font-size: 1.2rem;
+  text-align: start;
+  margin-top: 1.3rem;
+}
+.botones {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: #61153a;
+  margin: 1rem;
+}
+.botones a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+.caja-cu img {
+  width: 100%;
+}
+/***********************************REDES*******************************************/
+.redes {
+  position: fixed;
+  margin-top: 13rem;
+}
+.iconos {
+  display: flex;
+  flex-direction: column;
+}
+.iconos img {
+  margin-top: 3rem;
+  margin-left: -1.1rem;
+}
+
+/********************************************avances cursos****************************************/
+.caja-noticias h2 {
+    font-size: 3rem;
+  text-transform: uppercase;
+  margin-top: 16rem;
+  color: white;
+}
+/********************************prueba*****************************/
+
